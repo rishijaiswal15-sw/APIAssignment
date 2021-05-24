@@ -13,7 +13,7 @@ public class ArrayDemo2 {
 	        int a[]=new int[5];
 	        int score[][] = new int[2][];
 	        score[0] = new int[2];
-	        
+	        System.out.println("Made chnages");
 	}
 
 }
