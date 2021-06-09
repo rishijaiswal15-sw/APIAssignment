@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-09T20:51:57 NZST" name="Default suite" finished-at="2021-06-09T20:52:03 NZST" duration-ms="6213">
+  <suite started-at="2021-06-09T23:16:53 NZST" name="Suite" finished-at="2021-06-09T23:16:56 NZST" duration-ms="3044">
     <groups>
     </groups>
-    <test started-at="2021-06-09T20:51:57 NZST" name="Default test" finished-at="2021-06-09T20:52:03 NZST" duration-ms="6213">
+    <test started-at="2021-06-09T23:16:53 NZST" name="Test" finished-at="2021-06-09T23:16:56 NZST" duration-ms="3044">
       <class name="APIDemo.APITest.AssurityAPIAssignment">
-        <test-method signature="getAPIProductDetails()[pri:0, instance:APIDemo.APITest.AssurityAPIAssignment@1ffe63b9]" started-at="2021-06-09T20:51:57 NZST" name="getAPIProductDetails" finished-at="2021-06-09T20:52:03 NZST" duration-ms="6155" status="FAIL">
+        <test-method signature="getAPIProductDetails()[pri:0, instance:APIDemo.APITest.AssurityAPIAssignment@1c93084c]" started-at="2021-06-09T23:16:53 NZST" name="getAPIProductDetails" finished-at="2021-06-09T23:16:56 NZST" duration-ms="2994" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [2x larger image] but found [Good position in category]]]>
@@ -56,6 +56,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- getAPIProductDetails -->
       </class> <!-- APIDemo.APITest.AssurityAPIAssignment -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
